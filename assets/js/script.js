@@ -134,12 +134,11 @@ $("#trash").droppable({
     $(".bottom-trash").removeClass("bottom-trash-active");
   },
   over: function (event, ui) {
-    $(".bottom-trash").addClass("bottom-trash-active");
     console.log(ui);
+    $(".bottom-trash").addClass("bottom-trash-active");
   },
   out: function (event, ui) {
     $(".bottom-trash").removeClass("bottom-trash-active");
-    console.log(ui);
   },
 });
 
