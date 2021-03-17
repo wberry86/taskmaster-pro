@@ -1,6 +1,4 @@
-ul.list-group {
-  min-height: 130px;
-}
+
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -15,12 +13,8 @@ h6 {
   font-family: "Staatliches", sans-serif;
 }
 
-.dropover {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.dropover-active {
-  background-color: rgba(0, 0, 0, 0.9);
+ul.list-group {
+  min-height: 130px;
 }
 
 .bottom-trash {
@@ -32,6 +26,21 @@ h6 {
   transition: all .5s ease-in-out;
   background-color: rgba(234, 0, 39, 0.7);
 }
+
+.bottom-trash-drag {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.dropover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dropover-active {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+
 
 .bottom-trash-active {
   background-color: rgba(234, 0, 39, 1);
